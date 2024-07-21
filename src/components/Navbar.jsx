@@ -1,29 +1,28 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 import MentoonsLogo from '../assets/Mentoonslogo.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <img src={MentoonsLogo} className="navbar-brand"/>
-      <ul className="navbar-links">
+      <ul className="navbar-as">
         <li className='navbarElements'>
-          <Link to="about-section" smooth={true} duration={500}>About</Link>
+          <a href="#about-section" smooth={true} duration={500}>About</a>
         </li>
         <li className='navbarElements'>
-          <Link to="categories-section" smooth={true} duration={500}>Categories</Link>
+          <a href="#categories-section" smooth={true} duration={500}>Categories</a>
         </li>
         <li className='navbarElements'>
-          <Link to="how-it-works-section" smooth={true} duration={500}>How It Works</Link>
+          <a href="#how-it-works-section" smooth={true} duration={500}>How It Works</a>
         </li>
         <li className='navbarElements'>
-          <Link to="benefits-section" smooth={true} duration={500}>Benefits</Link>
+          <a href="#benefits-section" smooth={true} duration={500}>Benefits</a>
         </li>
         <li className='navbarElements'>
-          <Link to="testimonials-section" smooth={true} duration={500}>Testimonials</Link>
+          <a href="#testimonials-section" smooth={true} duration={500}>Testimonials</a>
         </li>
         <li className='navbarElements'>
-          <Link to="call-to-action-section" smooth={true} duration={500}>Call to Action</Link>
+          <a href="#call-to-action-section" smooth={true} duration={500}>Call to Action</a>
         </li>
       </ul>
     </nav>
